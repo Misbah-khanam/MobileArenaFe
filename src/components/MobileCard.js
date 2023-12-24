@@ -57,7 +57,7 @@ const MobileCard = (props) => {
 
 
   return (
-    <div className='-z-10 w-52 h-80 bg-slate-100 m-5 shadow-lg rounded'>
+    <div className=' w-52 h-80 bg-slate-100 m-5 shadow-lg rounded'>
       <center><img src={`data:image/png;base64,${props.img}`} className='w-32 h-28 mt-2' /></center>
       <h3 className='text-success'><del className='text-danger'>{props.mobile.actual_price}</del> {props.mobile.selling_price}</h3>
       <h3>{props.mobile.company} {props.mobile.name}</h3>
@@ -69,7 +69,7 @@ const MobileCard = (props) => {
         <TERipple rippleColor="white">
           <button
             type="button"
-            className=" -z-10 relative  inline-block rounded bg-primary px-6 pb-2 pt-2.5 w-28 mt-1 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+            className=" relative  inline-block rounded bg-primary px-6 pb-2 pt-2.5 w-28 mt-1 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
             onClick={handleBuy}
           >
             Buy
@@ -185,28 +185,28 @@ const MobileCard = (props) => {
                     <table className='min-w-full text-left text-sm '>
                       <tbody>
                       <tr className='border-b bg-neutral-200 dark:border-neutral-500 dark:bg-neutral-700 p-8'>
-                        <th className="whitespace-nowrap px-6 py-4">Phone Number</th>
-                        <td className="whitespace-nowrap px-6 py-4">{dPhone}</td>
+                        <th className="px-6 py-4">Phone Number</th>
+                        <td className="px-6 py-4">{dPhone}</td>
                       </tr>
                       <tr className='border-b bg-white dark:border-neutral-500 dark:bg-neutral-600'>
-                        <th className="whitespace-nowrap px-6 py-4">Delivery Address</th>
-                        <td className="whitespace-nowrap px-6 py-4">{dAddress}</td>
+                        <th className="px-6 py-4">Delivery Address</th>
+                        <td className="px-6 py-4">{dAddress}</td>
                       </tr>
                       <tr className='border-b bg-neutral-200 dark:border-neutral-500 dark:bg-neutral-700'>
-                        <th className="whitespace-nowrap px-6 py-4">Model</th>
-                        <td className="whitespace-nowrap px-6 py-4">{props.mobile.modelNO}</td>
+                        <th className="px-6 py-4">Model</th>
+                        <td className="px-6 py-4">{props.mobile.modelNO}</td>
                       </tr>
                       <tr className='border-b bg-white dark:border-neutral-500 dark:bg-neutral-600'>
-                        <th className="whitespace-nowrap px-6 py-4">Name</th>
-                        <td className="whitespace-nowrap px-6 py-4">{props.mobile.name}</td>
+                        <th className="px-6 py-4">Name</th>
+                        <td className="px-6 py-4">{props.mobile.name}</td>
                       </tr>
                       <tr className='border-b bg-neutral-200 dark:border-neutral-500 dark:bg-neutral-700'>
-                        <th className="whitespace-nowrap px-6 py-4">price</th>
-                        <td className="whitespace-nowrap px-6 py-4">{props.mobile.selling_price}</td>
+                        <th className="px-6 py-4">price</th>
+                        <td className="px-6 py-4">{props.mobile.selling_price}</td>
                       </tr>
                       <tr className='border-b bg-white dark:border-neutral-500 dark:bg-neutral-600'>
-                        <th className="whitespace-nowrap px-6 py-4">Payment Method</th>
-                        <td className="whitespace-nowrap px-6 py-4">{payMethod}</td>
+                        <th className="px-6 py-4">Payment Method</th>
+                        <td className="px-6 py-4">{payMethod}</td>
                       </tr>
                       </tbody>
                     </table>
